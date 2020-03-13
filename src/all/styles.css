@@ -1,0 +1,49 @@
+.favoritebtn {
+    color: white;
+}
+.product-image {
+    width: 200px;
+}
+
+.container {
+    text-align: center;
+    background-color: #282C34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-top: 40px;
+}
+
+.product-brand {
+    display: block;
+    font-size: 14px;
+    text-align: left;
+}
+
+.product-title {
+    text-align: center;
+    width: 200px;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    color: white;
+    display: block;
+    font-size: 17px;
+
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 14px;
+    text-align: left;
+}
+
+.product-seconds {
+    font-size: 12px;
+}
